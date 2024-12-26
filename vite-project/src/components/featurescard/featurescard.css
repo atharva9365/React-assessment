@@ -1,0 +1,66 @@
+.featurecard-section {
+  width: 600px;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/* Adjust text styling */
+.featurecard-content h3 {
+  margin: 0.5rem;
+  font-family: Montserrat; 
+  font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+  .featurecard-section {
+      width: 90%; 
+      height: auto; 
+      flex-direction: column;
+      padding: 1rem; 
+      margin-top: 30px;
+  }
+
+  .featurecard-content h3 {
+      font-size: 0.5rem; 
+      text-align: center;
+  }
+
+  .featurecard-content p {
+      font-size: 0.9rem; 
+      text-align: center; 
+  }
+
+  .featurecard-img img {
+      max-width: 80%; 
+      height: auto; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .featurecard-section {
+      width: 100%; 
+      padding: 1rem;
+  }
+
+  .featurecard-content h3 {
+      font-size: 1rem; 
+  }
+
+  .featurecard-content p {
+      font-size: 0.8rem;
+  }
+
+  .featurecard-img img {
+      max-width: 100%;
+  }
+}

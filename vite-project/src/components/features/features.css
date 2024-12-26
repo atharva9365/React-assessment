@@ -1,0 +1,53 @@
+.features-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat; 
+    margin-top: 50px;
+    text-align: center;
+}
+
+.features-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-para p {
+    font-size: 24px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.feature-session {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.features-contain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    object-fit: cover;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.features-contain img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .features-contain {
+        flex-direction: column; 
+        align-items: center;
+        width: 90%;
+    }
+}

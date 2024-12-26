@@ -1,0 +1,67 @@
+.enquirycard2-section {
+    /* border: 2px solid red; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.enquirycard2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.enquirycard2-content > h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+.enquirycard2-content > p {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #333333;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .enquirycard2-section {
+        width: 90%;
+        padding: 15px;
+        margin: 30px auto;
+    }
+
+    .enquirycard2-content > h2 {
+        font-size: 22px;
+    }
+
+    .enquirycard2-content > p {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .enquirycard2-section {
+        width: 100%;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .enquirycard2-content > h2 {
+        font-size: 18px;
+    }
+
+    .enquirycard2-content > p {
+        font-size: 16px;
+    }
+}

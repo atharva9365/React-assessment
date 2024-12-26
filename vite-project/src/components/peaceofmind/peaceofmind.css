@@ -1,0 +1,36 @@
+.peaceofmind-section{
+  background-image: url("../../assets/peace.png");
+  background-position: right;
+  background-repeat: no-repeat;
+ height: 300px;
+}
+.peaceofmind-heading h2{
+    text-align: center;
+    font-family: Montserrat; 
+    margin-top: 90px;
+    font-size: 38px;
+}
+.peaceofmind-para {
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.peaceofmind-para >p{
+ font-size: 22px;
+}
+.btn-peaceofmind{
+    width: 233px;
+    height: 61px;
+    border-radius: 32px;
+    padding: 8.5px 24px 8.5px 24px;
+    background-color: #0078FF;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    font-family: Montserrat;
+    margin-top: 30px;
+}

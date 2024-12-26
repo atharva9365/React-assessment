@@ -1,0 +1,125 @@
+.testimonial-heading {
+    text-align: center;
+    font-family: Montserrat; 
+    margin-top: 90px;
+}
+.testimonial-heading > p {
+    font-size: 22px;
+}
+.testimonial-section {
+    width: 80%;
+    height: auto; 
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 1rem;
+}
+.testimonial-img {
+    width: 600px;
+    height: 500px;
+}
+.testimonial-img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.testimonial-icon img {
+    margin-bottom: 80px;
+}
+.icon-para {
+    height: auto;
+    width: 380px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-para > p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+.arrow-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.test-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+}
+.test-para > p {
+    font-size: 22px;
+}
+
+
+@media (max-width: 768px) {
+    .testimonial-section {
+        flex-direction: column; 
+        padding: 2rem; 
+        width: 90%; 
+    }
+
+    .testimonial-img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .testimonial-icon img {
+        margin-bottom: 40px;
+    }
+
+    .test-main {
+        width: 100%; 
+    }
+
+    .icon-para {
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    .icon-para > p {
+        font-size: 18px; 
+    }
+
+    .test-para > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-heading > p {
+        font-size: 18px; 
+    }
+
+    .testimonial-section {
+        padding: 1.5rem; 
+    }
+
+    .testimonial-img {
+        width: 100%; 
+    }
+
+    .icon-para {
+        margin-top: 10px;
+    }
+
+    .icon-para > p {
+        font-size: 16px; 
+    }
+
+    .test-para > p {
+        font-size: 16px; 
+    }
+
+    .arrow-section img {
+        width: 50px; 
+    }
+}
